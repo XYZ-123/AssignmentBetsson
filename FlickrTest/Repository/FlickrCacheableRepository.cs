@@ -23,7 +23,16 @@ namespace FlickrTest.Repository
         public List<FlickrImage> GetImagesByTags(string tags)
         {
             // Load the data from the cache if it exist
-            return CacheHelper<List<FlickrImage>>.Get(tags, () => _flickrRepository.GetImagesByTags(tags));
+            return CacheHelper<List<FlickrImage>>.Get(
+                tags, 
+                () => this._flickrRepository.GetImagesByTags(tags),
+                imageList =>
+                    {
+                        foreach (var image in imageList)
+                        {
+                            image.Source = Source.Cache;
+                        }
+                    });
             
         }
     }

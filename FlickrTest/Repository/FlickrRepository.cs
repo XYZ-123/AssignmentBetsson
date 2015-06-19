@@ -26,7 +26,7 @@ namespace FlickrTest.Repository
 
             foreach (XmlNode item in nodes)
             {
-                var image = new FlickrImage {Title = item.FirstChild.InnerText};
+                var image = new FlickrImage {Title = item.FirstChild.InnerText, Source = Source.Flickr};
                 var xmlAttributeCollection = item.ChildNodes[9].Attributes;
                 if (xmlAttributeCollection != null){ 
                     image.ImageUrl = xmlAttributeCollection["href"].Value;
