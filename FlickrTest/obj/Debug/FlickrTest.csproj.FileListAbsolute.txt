@@ -130,3 +130,5 @@ D:\Projects\AssignmentBetsson\FlickrTest\bin\Microsoft.Practices.Unity.xml
 D:\Projects\AssignmentBetsson\FlickrTest\bin\Microsoft.Practices.Unity.Configuration.xml
 D:\Projects\AssignmentBetsson\FlickrTest\bin\Microsoft.Practices.Unity.Mvc.xml
 D:\Projects\AssignmentBetsson\FlickrTest\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Projects\AssignmentBetsson\FlickrTest\bin\EntityFramework.dll
+D:\Projects\AssignmentBetsson\FlickrTest\bin\EntityFramework.xml

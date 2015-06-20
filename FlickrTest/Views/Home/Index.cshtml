@@ -1,15 +1,21 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
+<div ng-controller="FlickrController as flickr">
 
-<h2>Index</h2>
-@Html.TextBox("tags",null, new { placeholder = "Type in your search"})
-<h2>Share</h2>
-<div>
-    <a id="link" href=""></a>
-</div>
+    <h2>Index</h2>
+        <input type="text" name="tags" value="{{tags}}" placeholder = "Type in your search" ng-model="tags" ng-keyup="search(tags)" />
+    <h2>Share</h2>
+    <div>
+        <a id="link" href=""></a>
+    </div>
 
-<h2>Pictures</h2>
-<div id="container">
-
+    <h2>Pictures</h2>
+    <div id="container">
+        <div ng-repeat="searchResult in searchResults">
+            <span>{{searchResult.Title}}</span>
+            <img />
+            <span>{{getSource(searchResult.Source)}}</span>
+        </div>
+    </div>
 </div>

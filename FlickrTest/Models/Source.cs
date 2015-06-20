@@ -2,7 +2,7 @@
 {
     public enum Source
     {
-        Cache,
+        Cache = 0,
         Flickr
     }
 }

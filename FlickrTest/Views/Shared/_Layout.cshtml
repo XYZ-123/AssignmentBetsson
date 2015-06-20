@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="./build/css/site.css"/>
+
 </head>
-<body>
+<body ng-app="FlickrTest">
     @RenderBody()
-    
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/script")
-    @RenderSection("scripts", required: false)
+    <script type="text/javascript" src="build/javascript/vendor.js"></script>
+    <script type="text/javascript" src="build/javascript/all.js"></script>
+
 </body>
 </html>

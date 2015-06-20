@@ -1,0 +1,36 @@
+{
+  "name": "AssignmentBetsson",
+  "version": "1.0.0",
+  "description": "Test project with angular, gulp, karma",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "angular": "^1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "karma": "^0.12.36",
+    "ngstorage": "^0.3.6",
+    "require-dir": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XYZ-123/AssignmentBetsson.git"
+  },
+  "keywords": [
+    "anugular",
+    "gulp",
+    "karma",
+    "Betsson"
+  ],
+  "author": "Rudyuk Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XYZ-123/AssignmentBetsson/issues"
+  },
+  "homepage": "https://github.com/XYZ-123/AssignmentBetsson"
+}
