@@ -103,3 +103,27 @@
     height:100%;
     width:66%;
 }
+
+@media(max-width:850px) and (min-width:550px)
+{
+    .wrapper
+    {
+        height:calc(400px + 1em);
+    }
+    .image-container
+    {
+        height:400px;
+    }
+}
+
+@media(max-width:549px)
+{
+    .wrapper
+    {
+        height:calc(300px + 1em);
+    }
+    .image-container
+    {
+        height:300px;
+    }
+}

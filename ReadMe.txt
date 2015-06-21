@@ -9,4 +9,4 @@
 •	Change HomeController's GetImage method only to allow POST request, update the JavaScript so the functionality still work -done
 •	New images should fade in when they are added to the DOM, focus only on the image so each of the images loads smoothly and are display ready - done.
 •	Style the application to look like the attached preview (background image found in the root of the Demo folder) - done
-•	Create a responsive layout so that the application looks good in all resolutions (1 image per row in mobile, 5 on tablet and 10 on high resolution computers)
+•	Create a responsive layout so that the application looks good in all resolutions (1 image per row in mobile, 5 on tablet and 10 on high resolution computers) - done

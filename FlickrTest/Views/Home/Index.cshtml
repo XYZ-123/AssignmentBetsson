@@ -7,9 +7,9 @@
         <a id="link" class="btn btn-primary" href="">Share...</a>
     </div>
 
-    <div class="images-container col-lg-12" ng-switch="loading">
+    <div class="images-container col-lg-12 col-md-12 col-sm-12 col-xs-12" ng-switch="loading">
         <div ng-switch-when="false" ng-show="{{searchResults.length > 0}}">
-            <div class="wrapper col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="searchResult in searchResults">
+            <div class="wrapper col-lg-4 col-md-6 col-sm-6 col-xs-12" ng-repeat="searchResult in searchResults">
                 <div class="image-container">
                     <div class="image">
                         <img ng-src="{{searchResult.ImageUrl}}" ng-imageonload />

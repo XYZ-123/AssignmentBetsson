@@ -9,15 +9,9 @@
       <change type="DELETED" beforePath="D:\Projects\AssignmentBetsson\FlickrTest\Scripts\jquery-ui-1.8.20.js" afterPath="" />
       <change type="DELETED" beforePath="D:\Projects\AssignmentBetsson\FlickrTest\Scripts\jquery-ui-1.8.20.min.js" afterPath="" />
       <change type="DELETED" beforePath="D:\Projects\AssignmentBetsson\FlickrTest\Scripts\script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTestTests/FlickrTestTests.csproj" afterPath="$PROJECT_DIR$/FlickrTestTests/FlickrTestTests.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTestTests/HomeControllerTests.cs" afterPath="$PROJECT_DIR$/FlickrTestTests/HomeControllerTests.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Views/Home/Index.cshtml" afterPath="$PROJECT_DIR$/FlickrTest/Views/Home/Index.cshtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.txt" afterPath="$PROJECT_DIR$/ReadMe.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Content/Site.css" afterPath="$PROJECT_DIR$/FlickrTest/Content/Site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Scripts/controller.js" afterPath="$PROJECT_DIR$/FlickrTest/Scripts/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Scripts/directives.js" afterPath="$PROJECT_DIR$/FlickrTest/Scripts/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Content/image-container.css" afterPath="$PROJECT_DIR$/FlickrTest/Content/image-container.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/repositories.config" afterPath="$PROJECT_DIR$/packages/repositories.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AssignmentBetsson.iws" />
@@ -62,8 +56,8 @@
       <file leaf-file-name="image-container.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlickrTest/Content/image-container.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13117547">
-              <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.6524702">
+              <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -126,6 +120,7 @@
         <option value="$PROJECT_DIR$/FlickrTest/Content/Site.css" />
         <option value="$PROJECT_DIR$/FlickrTest/Scripts/controller.js" />
         <option value="$PROJECT_DIR$/FlickrTest/Scripts/directives.js" />
+        <option value="$PROJECT_DIR$/FlickrTest/Content/image-container-small.css" />
         <option value="$PROJECT_DIR$/FlickrTest/Content/image-container.css" />
       </list>
     </option>
@@ -362,6 +357,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="38cb6d97-0336-4d31-9b0c-0161fdae4725" name="Default" comment="" />
@@ -412,6 +410,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -483,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlickrTest/Content/image-container.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13117547">
-          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.6524702">
+          <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
           <folding />
         </state>
       </provider>
