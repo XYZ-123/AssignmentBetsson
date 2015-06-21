@@ -14,6 +14,7 @@
     padding: 0.5em;
     width: auto;
     display:inline;
+    position: relative;
 }
 
 .header a.btn{
@@ -21,4 +22,49 @@
     padding: 0.5em 1em;
     text-decoration: none;
     background:linear-gradient(#2CB8FE, #00A9FE);
+}
+
+.seo
+{
+    position: absolute;
+    margin-top:5px;
+    right:3px;
+    background: #d5d5d5;
+
+    z-index:9999;
+    border: 3px solid #a5a5a5;
+    border-radius: 5px;
+    padding:1em;
+    width:450px;
+    height: 230px;
+}
+.seo .seotitle
+{
+    padding: 0.3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+.seo .seoimagewrapper
+{
+    align-self: flex-start;
+}
+.seo .seoimages
+{
+    display:flex;
+    align-items: center;
+    height: 150px;
+    font-size:0.8em;
+}
+.seo img
+{
+    width:100%;
+    height: 110px;
+}
+.seo .sociallinks
+{
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    color:#0040D0;
+    cursor: pointer;
 }

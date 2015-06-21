@@ -5,6 +5,9 @@ FlickrCtrl.controller("FlickrController",["$scope","$http","$localStorage",funct
         $scope.tags = $localStorage.tags || [];
         $scope.sources = ["Cache", "Flickr"];
         $scope.loading = false;
+        $scope.showSeo = false;
+        $scope.seoSearchResults = [];
+
 
         $scope.search = function(tags)
         {
@@ -20,8 +23,18 @@ FlickrCtrl.controller("FlickrController",["$scope","$http","$localStorage",funct
                 $scope.searchResults = $localStorage.searchResults = data;
             });
         };
+
         $scope.getSource = function(source)
         {
             return $scope.sources[source];
         }
+        $scope.facebookShareLink = function(){
+            return "http://facebook.com/sharer/sharer.php?u="+window.location+"?tags="+$scope.tags;
+        };
+        $scope.twitterShareLink = function(){
+            return "https://twitter.com/intent/tweet?hashtags=demo&original_referer="+window.location+"?tags="+$scope.tags;
+        };
+        $scope.redditShareLink = function(){
+            return "http://www.reddit.com/submit?url='"+window.location+"?tags="+$scope.tags+"'";
+        };
 }]);

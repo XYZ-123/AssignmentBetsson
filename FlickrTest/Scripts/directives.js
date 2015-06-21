@@ -26,16 +26,11 @@ function findRatio(elem, ratios)
     for(var ratio in ratios)
     {
         var currDiff = Math.pow((elem[0].width/elem[0].offsetHeight) - ratios[ratio], 2);
-        console.log(elem[0].width/elem[0].offsetHeight);
-        console.log(elem[0].width);
-        console.log(elem[0].offsetHeight);
         if(currDiff < mindiff)
         {
             mindiff = currDiff;
             minratio = ratios[ratio];
         }
-
     }
-    console.log(minratio);
     elem.addClass("ratio"+minratio*100);
 }

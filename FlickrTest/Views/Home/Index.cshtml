@@ -4,7 +4,24 @@
 <div ng-controller="FlickrController as flickr">
     <div class="header">
         <input type="text" class="form-control" name="tags" value="{{tags}}" placeholder="Search images" ng-model="tags" ng-keyup="search(tags)" />
-        <a id="link" class="btn btn-primary" href="">Share...</a>
+        <a id="link" class="btn btn-primary" href="" ng-click="showSeo = !showSeo">Share...</a>
+        <div class="seo" ng-show="showSeo">
+            <div class="seotitle"><span>Share this on social media</span>
+            </div>
+            <div class="seoimages">
+                <div class="seoimagewrapper col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="searchResult in searchResults.slice(0,3)">
+                    <div class="smallImage">
+                        <img ng-src="{{searchResult.ImageUrl}}" />
+                        <span>{{searchResult.Title}}</span>
+                    </div>
+                </div>
+            </div>
+                <div class="sociallinks">
+                    <a href="{{facebookShareLink()}}">Facebook</a>
+                    <a href="{{twitterShareLink()}}">Twitter</a>
+                    <a href="{{redditShareLink()}}">Reddit</a>
+                </div>
+            </div>
     </div>
 
     <div class="images-container col-lg-12 col-md-12 col-sm-12 col-xs-12" ng-switch="loading">
