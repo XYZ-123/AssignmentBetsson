@@ -163,14 +163,16 @@
     <Content Include="background.jpg" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\image-container.css" />
+    <Content Include="Content\Loading.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="preview.jpg" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\controller.js" />
     <Content Include="Scripts\directives.js" />
-    <Content Include="Scripts\script.js" />
     <Content Include="Static\background.jpg" />
+    <Content Include="Static\loading.svg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
