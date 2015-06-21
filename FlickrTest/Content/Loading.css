@@ -1,0 +1,25 @@
+.loading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading span.loading-text
+ {
+     position: relative;
+     font-size: 3em;
+     color: #CBCBCB;
+ }
+.loading span.loading-gif
+{
+    position: relative;
+    font-size: 3em;
+    color: #d5d5d5;
+    width: 3em;
+    height: 3em;
+
+    background-image: url("../static/loading.svg");
+    background-size: 100% 100%;
+
+}

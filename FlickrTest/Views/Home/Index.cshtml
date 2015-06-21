@@ -2,20 +2,28 @@
     ViewBag.Title = "Index";
 }
 <div ng-controller="FlickrController as flickr">
-
-    <h2>Index</h2>
-        <input type="text" name="tags" value="{{tags}}" placeholder = "Type in your search" ng-model="tags" ng-keyup="search(tags)" />
-    <h2>Share</h2>
-    <div>
-        <a id="link" href=""></a>
+    <div class="header">
+        <input type="text" class="form-control" name="tags" value="{{tags}}" placeholder="Search images" ng-model="tags" ng-keyup="search(tags)" />
+        <a id="link" class="btn btn-primary" href="">Share...</a>
     </div>
 
-    <h2>Pictures</h2>
-    <div id="container">
-        <div ng-repeat="searchResult in searchResults">
-            <span>{{searchResult.Title}}</span>
-            <img />
-            <span>{{getSource(searchResult.Source)}}</span>
+    <div class="images-container col-lg-12" ng-switch="loading">
+        <div ng-switch-when="false" >
+            <div class="image-container col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="searchResult in searchResults">
+                <div class="image">
+                    <img ng-src="{{searchResult.ImageUrl}}" ng-imageonload />
+                </div>
+                <span>{{searchResult.Title}}</span>
+                <span>{{getSource(searchResult.Source)}}</span>
+                
+                
+            </div>
+        </div>
+        <div class="loading" ng-switch-when="true">
+           <span class="loading-text">Loading search results</span>
+            </div>
+        <div class="loading" ng-switch-when="true">
+            <span class="loading-gif"></span>
         </div>
     </div>
 </div>
