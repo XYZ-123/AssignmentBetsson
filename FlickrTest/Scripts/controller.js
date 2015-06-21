@@ -6,8 +6,6 @@ FlickrCtrl.controller("FlickrController",["$scope","$http","$localStorage",funct
         $scope.sources = ["Cache", "Flickr"];
         $scope.loading = false;
 
-        $scope.ratios = [3/4, 5/3, 4/3, 1, 3/5];
-
         $scope.search = function(tags)
         {
             if(!tags || tags.length < 3)

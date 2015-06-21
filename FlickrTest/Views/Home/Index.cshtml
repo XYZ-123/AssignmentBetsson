@@ -8,22 +8,24 @@
     </div>
 
     <div class="images-container col-lg-12" ng-switch="loading">
-        <div ng-switch-when="false" >
-            <div class="image-container col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="searchResult in searchResults">
-                <div class="image">
-                    <img ng-src="{{searchResult.ImageUrl}}" ng-imageonload />
+        <div ng-switch-when="false" ng-show="{{searchResults.length > 0}}">
+            <div class="wrapper col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="searchResult in searchResults">
+                <div class="image-container">
+                    <div class="image">
+                        <img ng-src="{{searchResult.ImageUrl}}" ng-imageonload />
+                    </div>
+                    <span>{{searchResult.Title}} <br/>Loaded from {{getSource(searchResult.Source)}}</span>
                 </div>
-                <span>{{searchResult.Title}}</span>
-                <span>{{getSource(searchResult.Source)}}</span>
-                
-                
             </div>
         </div>
-        <div class="loading" ng-switch-when="true">
-           <span class="loading-text">Loading search results</span>
-            </div>
-        <div class="loading" ng-switch-when="true">
+        <div class="loading" ng-switch-when="true" ng-show="{{searchResults.length > 0}}">
+            <span class="loading-text">Loading search results</span>
+        </div>
+        <div class="loading" ng-switch-when="true" ng-show="{{searchResults.length > 0}}">
             <span class="loading-gif"></span>
+        </div>
+        <div class="loading" ng-switch-when="false" ng-show="{{searchResults.length == 0}}">
+            <span class="loading-text">No results</span>
         </div>
     </div>
 </div>

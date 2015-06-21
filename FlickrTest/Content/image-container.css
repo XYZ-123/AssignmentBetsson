@@ -4,34 +4,102 @@
     min-height: 60em;
     background-image:url("../static/background.jpg");
 }
+
+.wrapper
+{
+    padding:1em;
+    height:calc(500px + 1em);
+}
+
 .image-container
 {
-    margin: 1em;
-}
-.image-container img
-{
-    max-height: 100px;
+    height: 100%;
 }
 .image-container
 {
     background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
     background: rgba(0, 0, 0, .1);
+    position:relative;
 }
 
 .image-container
 {
-    display:none;
+    display:block;
+    visibility:hidden;
+    cursor:pointer;
+    height:500px;
+}
+
+.image-container.finished
+ {
+     display: flex;
+     visibility:visible;
+     justify-content: center;
+     align-content: center;
+ }
+.image-container.finished .image
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .image-container .image img
 {
     opacity: 0;
     -webkit-transition: 1s linear opacity;
+    -moz-transition: 1s linear opacity;
     transition: 1s linear opacity;
+    image-rendering: optimizeQuality; /*fix for mozilla*/
 }
 
-.image-container.finished
+
+.image-container span
 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: 0.4s linear opacity;
+    -moz-transition: 0.4s linear opacity;
+    transition: 0.4s linear opacity;
+    opacity: 0;
+    width:100%;
+    background: #d5d5d5;
+    padding:0.5em;
+    font-size:1.2em;
+    left:0;
+    bottom:0;
+
+}
+.image-container:hover span
+{
+    opacity:1;
+}
+
+.image-container img.ratio160
+{
+    width:100%;
+    height: 66%;
+}
+
+.image-container img.ratio130
+{
+    width:100%;
+    height: 80%;
+}
+
+.image-container img.ratio100
+{
+    width:100%;
+    height:100%;
+}
+
+.image-container img.ratio75
+{
+    height:100%;
+    width: 80%;
+}
+.image-container img.ratio60
+{
+    height:100%;
+    width:66%;
 }

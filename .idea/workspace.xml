@@ -9,8 +9,16 @@
       <change type="DELETED" beforePath="D:\Projects\AssignmentBetsson\FlickrTest\Scripts\jquery-ui-1.8.20.js" afterPath="" />
       <change type="DELETED" beforePath="D:\Projects\AssignmentBetsson\FlickrTest\Scripts\jquery-ui-1.8.20.min.js" afterPath="" />
       <change type="DELETED" beforePath="D:\Projects\AssignmentBetsson\FlickrTest\Scripts\script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest.sln" afterPath="$PROJECT_DIR$/FlickrTest.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTestTests/FlickrTestTests.csproj" afterPath="$PROJECT_DIR$/FlickrTestTests/FlickrTestTests.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTestTests/HomeControllerTests.cs" afterPath="$PROJECT_DIR$/FlickrTestTests/HomeControllerTests.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Views/Home/Index.cshtml" afterPath="$PROJECT_DIR$/FlickrTest/Views/Home/Index.cshtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.txt" afterPath="$PROJECT_DIR$/ReadMe.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Content/Site.css" afterPath="$PROJECT_DIR$/FlickrTest/Content/Site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Scripts/controller.js" afterPath="$PROJECT_DIR$/FlickrTest/Scripts/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Scripts/directives.js" afterPath="$PROJECT_DIR$/FlickrTest/Scripts/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrTest/Content/image-container.css" afterPath="$PROJECT_DIR$/FlickrTest/Content/image-container.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/repositories.config" afterPath="$PROJECT_DIR$/packages/repositories.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AssignmentBetsson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/FlickrTest/Content/Site.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +62,8 @@
       <file leaf-file-name="image-container.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlickrTest/Content/image-container.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5076661">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.13117547">
+              <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -72,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/FlickrTest/Content/Loading.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -82,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/FlickrTest/Scripts/controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -92,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/FlickrTest/Scripts/directives.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -115,9 +123,9 @@
       <list>
         <option value="$PROJECT_DIR$/FlickrTest/Scripts/app.js" />
         <option value="$PROJECT_DIR$/FlickrTest/Content/Loading.css" />
-        <option value="$PROJECT_DIR$/FlickrTest/Scripts/directives.js" />
-        <option value="$PROJECT_DIR$/FlickrTest/Scripts/controller.js" />
         <option value="$PROJECT_DIR$/FlickrTest/Content/Site.css" />
+        <option value="$PROJECT_DIR$/FlickrTest/Scripts/controller.js" />
+        <option value="$PROJECT_DIR$/FlickrTest/Scripts/directives.js" />
         <option value="$PROJECT_DIR$/FlickrTest/Content/image-container.css" />
       </list>
     </option>
@@ -428,10 +436,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrTest/Scripts/directives.js">
+    <entry file="file://$PROJECT_DIR$/FlickrTest/preview.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrTest/Content/Site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -444,39 +457,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrTest/Scripts/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrTest/preview.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlickrTest/Content/Loading.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrTest/Content/Site.css">
+    <entry file="file://$PROJECT_DIR$/FlickrTest/Scripts/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrTest/Scripts/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlickrTest/Content/image-container.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5076661">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.13117547">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
           <folding />
         </state>
       </provider>
